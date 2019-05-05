@@ -1,0 +1,158 @@
+html, body {
+	background-color: #fff;
+	color: #636b6f;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 200;
+	height: 100vh;
+	margin: 0;
+	background: url(/images/stars-transparent-6.png) top left repeat;
+}
+
+.full-height {
+	height: 100vh;
+}
+
+.flex-center {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.position-ref {
+	position: relative;
+}
+
+.top-right {
+	position: absolute;
+	right: 10px;
+	top: 18px;
+}
+
+.content {
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Nunito', sans-serif;
+}
+
+h3 {
+	font-family: 'Nunito', sans-serif;
+}
+
+.links>a {
+	color: #636b6f;
+	padding: 0 25px;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: .1rem;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.m-b-md {
+	margin-bottom: 30px;
+}
+
+.row {
+	width: 50%;
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#rmore {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#hiddenTxt {
+	display: none;
+	border: 1px dotted gray;
+}
+
+#wwimg {
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align: center;
+}
+
+.theader {
+	margin: auto;
+	margin-left: 5px;
+	background-color: #FFD73F;
+	color: white;
+	font-weight: bold;
+}
+
+.ui-widget-header, .ui-state-default, ui-button {
+	background: #b9cd6d;
+	border: 1px solid #b9cd6d;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.modal a.close-modal[class*="icon-"] {
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  line-height: 1.25;
+  text-align: center;
+  text-decoration: none;
+  text-indent: 0;
+  background: #900;
+  border: 2px solid #fff;
+  -webkit-border-radius:  26px;
+  -moz-border-radius:     26px;
+  -o-border-radius:       26px;
+  -ms-border-radius:      26px;
+  -moz-box-shadow:    1px 1px 5px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  box-shadow:         1px 1px 5px rgba(0,0,0,0.5);
+}
+
+.demo-card-square.mdl-card {
+  width: 350px;
+  height: 400px;
+}
+
+.demo-card-square2.mdl-card {
+  width: 350px;
+  height: 400px;
+}
+
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('/images/bb.png') right 5% top 1% no-repeat #FFD73F;
+}
+
+.demo-card-square2 > .mdl-card__title {
+  color: #fff;
+  background:
+    url('/images/BreakingBadLogo.png')  no-repeat #F6F6F6;
+}
+
+.totDonations{
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.users-list-icon {
+  width: 100%;
+}
